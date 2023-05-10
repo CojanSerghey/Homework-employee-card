@@ -1,0 +1,139 @@
+body {
+    font-family: arial;
+}
+
+header, section, footer {
+    border: 1px dotted #999;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.card-employee1 {
+    text-align: center;
+    border: 1px solid #BBB;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px -1px #666;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card-employee1:hover {
+    box-shadow: 2px 2px 5px -1px #666;
+    transform: translateY(-1px) translateX(-1px); 
+}
+.card-employee1 h1 {
+    transform: translateY(280px);
+    font-size: 30px;
+    margin: 0;
+}
+.card-employee1 img {
+    transform: translateY(-65px);
+}
+.card-employee1 p {
+    margin: 0;
+}
+.card-employee1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.card-employee1 .collapse {
+    height: 0;
+    overflow: hidden;
+}
+.card-employee1:target .collapse {
+    height: 160px;
+    transition: 0.2s;
+}
+.card-employee1 h2 {
+    margin-bottom: 0;
+}
+.card-employee1 .expand {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border: 3px solid orange;
+    color: brown;
+    margin-top: 20px;
+    padding: 0 8px;
+    border-radius: 100%;
+}
+.card-employee1 .expand.m {
+    padding: 0 12px;
+    transform: translateY(-4px);
+
+}
+.card-employee1:target .expand:not(.m) {
+    display: none;
+}
+
+.card-employee2 {
+    text-align: center;
+    border: 1px solid #BBB;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px -1px #666;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card-employee2:hover {
+    box-shadow: 2px 2px 5px -1px #666;
+    transform: translateY(-1px) translateX(-1px); 
+}
+.card-employee2 h1 {
+    transform: translateY(280px);
+    font-size: 30px;
+    margin: 0;
+}
+.card-employee2 img {
+    transform: translateY(-65px);
+}
+.card-employee2 p {
+    margin: 0;
+}
+.card-employee2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.card-employee2 .collapse2 {
+    height: 0;
+    overflow: hidden;
+}
+.card-employee2:target .collapse2 {
+    height: 160px;
+    transition: 0.2s;
+}
+.card-employee2 h2 {
+    margin-bottom: 0;
+}
+.card-employee2 .expand2 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border: 3px solid orange;
+    color: brown;
+    margin-top: 20px;
+    padding: 0 8px;
+    border-radius: 100%;
+}
+.card-employee2 .expand2.m2 {
+    padding: 0 12px;
+    transform: translateY(-4px);
+}
+.card-employee2:target .expand2:not(.m2) {
+    display: none;
+}
+
+
+
+
